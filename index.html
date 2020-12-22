@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>MyWebsite</title>
+<!--Linking fontawesome to the framework-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<!--Adding ubuntu google fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+<!-- We want to use external file we need to import that path to index.html-->
+<link rel="stylesheet" href="css/bootstrap.css">
+<!-- When we use same bootstrap class name in my-style-css, it will overwrite bottstrap class.
+This make us modify the bootstrap classess -->
+<link rel="stylesheet" href="css/my-style.css">
+<script src="https://code.jquery.com/3.2.1.slim.js" integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+</head> 
+    <body>
+        <!--We can use section to create blocks of codes.
+        Section is like a div, but it is better becuse
+        of it is different section-->
+        <section id="top-part">
+            <div class="container-fluid bg-blue text-light top-part-space">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-warning nav-radius">
+                        <a class="navbar-brand" href="#">E-Mail</a>
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                              <a class="nav-link active" href="#">Comments <span class="sr-only">(current)</span></a>
+                              <a class="nav-link active" href="#">Sign Up</a>
+                            </div> 
+                        </div>
+                      </nav>
+                      <div class="row">
+                         <div class="col-lg-6 col-md-6 col-sm-12">
+                   <h1 class="slogan">How would you like to deliver the product to millions of people within minutes with the help of just one button?</h1> 
+                          <div>
+                            <button type="button" class="btn btn-secondary btn-lg"><i class="fab fa-apple"></i> Download</button>
+                            <button type="button" class="btn btn-light btn-lg ml-3"><i class="fab fa-android"></i> Download</button>  
+                          </div>
+                         </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img class="image" src="images/mobile.png" alt="phone_image">
+                      </div>
+                   </div>             
+                </div>
+            </div>
+        </section>
+        <section id=adds>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <i class="fas fa-rocket"></i>   
+                <h2>Fast Connection</h2>   
+                <p>Expand customer portflio by sending hundreds of thousands of e-mails within 10 minutes..</p>       
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <i class="fas fa-dollar-sign"></i>
+                <h2>Good Price</h3>
+                  <p>Advertise at a very low cost. You can send mail with an average of 0.001$</p>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <i class="fas fa-smile"></i>
+                <h2>Permanent Adds</h3>
+                <p>Mails stay in customers' mail accounts for a long time, which increases the advertising time.</p>     
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <i class="fas fa-comments"></i>
+                <h2>One On One Connection</h5>
+                <p>You can directly contact the customer you will reach and answer their questions.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Comment Section Stars-->
+        <section id="comments">
+          <div class="container-fluid bg-blue r-l-padding">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner text-light text-center">
+              <div class="carousel-item active text-light text-center">
+                  <p>It was a very quick turnaround. I sent thousands of e-mails within minutes. There were those who made an instant comeback, it's a really exciting system.</p>
+                  <img src="images/descarga-e.jfif" alt="">
+                  Jim Carey
+                </div>
+                <div class="carousel-item">
+                  <p>Honestly, I did not expect such a quality service. Also the customer representative was very helpful. I also get good feedback from customer.</p>
+                  <img src="images/descarga-e.jfif" alt="">
+                  John Lennen
+                </div>
+                <div class="carousel-item">
+                 <p>I have worked with e-mail marketing before, but the system I bought from you is faster than others. I always think of getting packages from you.</p>
+                 <img src="images/descarga-e.jfif" alt="">
+                Brad Pitt
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section id="pricing">
+          <div class="container-fluid">
+
+          </div>
+        </section>
+      </body>
+</html>

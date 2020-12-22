@@ -1,0 +1,35 @@
+.bg-blue{
+    background-color: #073b4c;
+}
+
+. top-part-space{
+    /* spacing 2% top and bottom, 5% left and right*/
+    padding: 2% 5%;
+}
+.nav-radius{
+    border-radius: 1rem;
+}
+.nav-brand{
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+/*media is used to run certain style for certain screen sizes
+style image when screen size is 768 or more */
+@media(min-width: 768px){
+    .image{
+        margin-top: 30px;
+        width: 80%;
+        transform: rotate(25deg);
+    }
+}
+
+.slogan{
+    font-family: "Ubuntu";
+    font-size: 2.0rem;
+    line-height: 1.5;
+    margin-bottom: 10%;
+}
+.fas{
+    color: #FFD167;
+}
